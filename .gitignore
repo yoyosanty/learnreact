@@ -1,0 +1,35 @@
+# DDEV configs (keep them tracked for team use)
+.ddev/db
+.ddev/import-db
+.ddev/imported-dbs
+.ddev/.global_commands
+.ddev/homeadditions
+.ddev/nginx-site.conf
+
+# Drupal
+/drupal-backend/vendor/
+/drupal-backend/web/core/
+/drupal-backend/web/modules/contrib/
+/drupal-backend/web/themes/contrib/
+/drupal-backend/web/sites/*/files/
+/drupal-backend/web/sites/*/private/
+/drupal-backend/web/sites/*/settings.php
+/drupal-backend/web/sites/*/services.yml
+/drupal-backend/web/sites/*/settings.local.php
+/drupal-backend/web/sites/*/settings.ddev.php
+
+# Drupal config export (optional if not versioning config sync)
+/drupal-backend/config/sync/
+
+# React
+/react-frontend/node_modules/
+/react-frontend/dist/
+/react-frontend/.vite/
+
+# Logs, IDE, OS files
+*.log
+*.env
+.DS_Store
+.idea/
+.vscode/
+/vendor/

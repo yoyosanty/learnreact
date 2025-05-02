@@ -1,0 +1,5 @@
+location ^~ /react/ {
+  root /var/www/html/react-frontend/dist;
+  index index.html index.htm;
+  try_files $uri $uri/ /index.html;
+}
